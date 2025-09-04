@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+.HeadOn{
+    height: 110px;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.Upper_Nav{
+    height: 45px;
+    width: 100%;
+    background-color: black;
+    color: white
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.Upper_Nav ul{
+    height: 45px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    list-style: none;
+    /* text-decoration: none; */
+    /* padding: 15px; */
+    /* margin: 15px; */
+    padding-left: 70px;
+    padding-right: 600px;
+    gap: 40px;
+    
+}
+.Upper_Nav li a{
+    /* height: 45px; */
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    /* padding-left: 40px; */
+}
+/* err - its not taking full height of li at the time of hover */
+
+.Upper_Nav ul li a:hover{
+    
+    background-color: white;
+    color: black;
+
+    /* height: 45px; */
+}
+
+.Down_Nav{
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-left: 100px;
+}
+.Down_Nav li{
+    list-style: none;
+    /* color: #accbd7; */
+    /* gap: 40px; */
+}
+.l_pad_use{
+    padding-left: 300px;
+    /* color: beige; */
+}
+.Down_Nav li a{
+    text-decoration: none;
+    color:rgb(17, 42, 227);
+}
+
+
+/* *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+} */
+.Back_img{
+    height: 400px;
+    width: 100%;
+    background-color: rgb(200, 214, 249);
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    /* margin-top: 20px; */
+    padding-top: 30px;
+}
+.context{
+    width: 750px;
+    margin-left: 160px;
+}
+.b_img{
+    overflow: hidden;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+.Universe{
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 80px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.S_pics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+}
+.Universe img{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding-left: 10px;
+}
+
+.Invest{
+    height: 250px;
+    width: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: rgb(155, 176, 225);
+    /* gap: 50px; */
+    padding: 50px;
+}
+.them{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    gap: 50px;
+}
+.Invest h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.Invest p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skills{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+}
+.contains{
+    font-size: 22px;
+}
+
+.endIt{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
